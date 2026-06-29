@@ -12,6 +12,16 @@ export default function RakutenMobilePage() {
       <div className="max-w-md w-full bg-white rounded-2xl shadow-lg overflow-hidden">
         {/* Header */}
         <div className="bg-red-600 px-6 py-5">
+          {/* Rakuten logo in white */}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 130 32"
+            className="h-7 w-auto mb-3"
+            fill="white"
+            aria-label="Rakuten"
+          >
+            <path d="M18.3 0H0v32h8.5V20.4h6.1l6.6 11.6H30l-7.2-12.5C26 17.3 28 13.8 28 9.7 28 4.3 23.7 0 18.3 0zm-.4 13H8.5V7.4h9.4c1.5 0 2.7 1.2 2.7 2.7 0 1.6-1.2 2.9-2.7 2.9zM39.2 9.3l-8.6 22.7h8.8l1.1-3.3h8.1l1.1 3.3h8.8L49.9 9.3h-10.7zm2.2 13.3l2.1-6.5 2.2 6.5h-4.3zM70 9.3h-8.5V32H70V9.3zM90.5 9.3L82 21.9V9.3h-8.5V32H82l8.8-13v13h8.5V9.3h-8.8zM110.1 16v-6.7h-8.5V32h8.5v-9.5l8.6 9.5H130l-10.8-11.8L129.5 9.3h-11.2l-8.2 6.7z" />
+          </svg>
           <p className="text-white text-sm font-medium opacity-90 mb-1">
             従業員から楽天モバイルのご紹介です！
           </p>
